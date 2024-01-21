@@ -34,3 +34,28 @@
    margin: 0px auto; /* Sirve para centrar los elementos de manera horizontal*/
    display: block; /* solo se centrara con elementos que sean display block, en este caso div lo es.*/
 }
+
+
+/* Colapso de margenes 
+   Esto pasa de manera vertical, los margenes se fusionan y prevalese 
+   el margen con mayor rango.
+*/
+
+.main {
+   background-color: steelblue;   
+   color: white;
+   margin-bottom: 80px;
+   padding: .1px;
+}
+
+.main-title {
+   margin-top: 30px;
+}
+
+
+
+.footer {
+   background-color: steelblue;   
+   color: white;
+   margin-top: 50px;
+}
