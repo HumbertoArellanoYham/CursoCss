@@ -1,0 +1,13 @@
+body {
+    color: red;
+    font-family: cursive;
+    border: 1px solid black;    
+}
+
+h1 {
+    border: inherit;
+}
+
+input {
+    color: inherit;
+}

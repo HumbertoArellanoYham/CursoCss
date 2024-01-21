@@ -1,0 +1,36 @@
+.caja {
+   /* Propiedades generales*/
+   background-color: white; 
+   color: black;
+   font-size: 20px;
+   font-family: Arial;
+   width: 200px;
+   min-height: 200px;
+   text-align: center;
+
+   /* Propiedades del padding*/
+   padding: 50px 30px 10px;
+
+   /*Propiedades del borde*/
+   border-top-color: #1DF8B9;
+   border-top-width: 15px;
+   border-top-style: solid;
+
+   border-right-color: black;
+   border-right-width: 1px;
+   border-right-style: solid;
+
+   border-bottom-color: black;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+
+   border-left-color: black;
+   border-left-width: 1px;
+   border-left-style: solid;
+
+}
+
+.caja1 {
+   margin: 0px auto; /* Sirve para centrar los elementos de manera horizontal*/
+   display: block; /* solo se centrara con elementos que sean display block, en este caso div lo es.*/
+}
